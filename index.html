@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Forecast Finder</title>
+</head>
+
+<body>
+    <h1>Weather Forecast Finder</h1>
+    <input type="text" name="" id="city_name" placeholder="City">
+    <button id="json_get">Search</button>
+    <div id="card">
+        <div class="image"></div>
+        <h3 id="loading">cargando...</h3>
+        <h3 id="country"></h3>
+        <h3 id="city"></h3>
+        <h3 id="temp_c"></h3>
+        <h3 id="humidity"></h3>
+        <h3 id="climate"></h3>
+        <h3 id="wind_kph"></h3>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+</body>
+
+</html>
